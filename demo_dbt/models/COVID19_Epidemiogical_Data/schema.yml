@@ -8,10 +8,3 @@ sources:
       tables:
         - name: DEMOGRAPHICS
           description: 'Ceci est un test.'
-
-    - name: covid_region_transf
-          description: "A starter dbt model"
-          columns:
-            - name: name
-              tests:
-                - switzerland
