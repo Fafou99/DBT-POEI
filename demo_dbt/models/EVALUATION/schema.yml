@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+    - name: EVALUATION
+      description: 'Base de données Music pour l évaluation.'
+      database: EVALUATION
+      schema: PUBLIC
+      tables:
+        - name: ALBUM
+          description: 'Table contenant les infos concernant les albums'
+        - name: ARTIST
+        - name: GENRE
+        - name: MEDIATYPE
+        - name: PLAYLIST
+        - name: PLAYLISTTRACK
+        - name: TRACK
